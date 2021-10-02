@@ -22,8 +22,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -47,13 +45,8 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
-
-
 <!-- ABOUT THE PROJECT --
 ## About The Project
-
-
 
 This is a Medium clone, following are the features, I tried to mimic few features from the 
 medium.
@@ -195,15 +188,11 @@ No authentication required, returns a [User](/specs/backend-specs/api-response-f
 
 Required fields: `email`, `username`, `password`
 
-
-
 ### Get Current User
 
 `GET /api/user`
 
 Authentication required, returns a [User](/specs/backend-specs/api-response-format.md#users-for-authentication) that's the current user
-
-
 
 ### Update User
 
@@ -219,21 +208,14 @@ Example request body:
   }
 }
 ```
-
 Authentication required, returns the [User](/specs/backend-specs/api-response-format.md#users-for-authentication)
-
-
 Accepted fields: `email`, `username`, `password`, `image`, `bio`
-
-
 
 ### Get Profile
 
 `GET /api/profiles/:username`
 
 Authentication optional, returns a [Profile](/specs/backend-specs/api-response-format.md#profile)
-
-
 
 ### Follow user
 
@@ -242,8 +224,6 @@ Authentication optional, returns a [Profile](/specs/backend-specs/api-response-f
 Authentication required, returns a [Profile](/specs/backend-specs/api-response-format.md#profile)
 
 No additional parameters required
-
-
 
 ### Unfollow user
 
@@ -356,59 +336,8 @@ Authentication required
 
 
 
-### Add Comments to an Article
-
-`POST /api/articles/:slug/comments`
-
-Example request body:
-
-```JSON
-{
-  "comment": {
-    "body": "His name was my name too."
-  }
-}
-```
-
-Authentication required, returns the created [Comment](/specs/backend-specs/api-response-format.md#single-comment)
-
-Required field: `body`
 
 
-
-### Get Comments from an Article
-
-`GET /api/articles/:slug/comments`
-
-Authentication optional, returns [multiple comments](/specs/backend-specs/api-response-format.md#multiple-comments)
-
-
-
-### Delete Comment
-
-`DELETE /api/articles/:slug/comments/:id`
-
-Authentication required
-
-
-
-### Favorite Article
-
-`POST /api/articles/:slug/favorite`
-
-Authentication required, returns the [Article](/specs/backend-specs/api-response-format.md#single-article)
-
-No additional parameters required
-
-
-
-### Unfavorite Article
-
-`DELETE /api/articles/:slug/favorite`
-
-Authentication required, returns the [Article](/specs/backend-specs/api-response-format.md#single-article)
-
-No additional parameters required
 
 
 
