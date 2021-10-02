@@ -335,12 +335,6 @@ The `slug` also gets updated when the `title` is changed
 Authentication required
 
 
-
-
-
-
-
-
 ### Get Tags
 
 `GET /api/tags`
