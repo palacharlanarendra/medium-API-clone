@@ -126,9 +126,9 @@ To get a better idea about this project, follow my instructions (How to use?)
    password : asdf1234
    ```  
 4. Once you logged into the website, you can be able to access the private header links like write-a-story(add new post), settings, profile.       
-5. if you access the write-a-story link, you can add new article to the website. this submitted artice will be displayed in the global feed. you can even sort and view the articles based on the tags.     
-6.you can change your profile picture , password, bio, username, email from the update settings page.     
-7.You can see the all articles posted by the user, and he only have the access to edit(article content) and delete the articles.        
+5. if you access the write-a-story link, you can add new article to the website. this submitted artice will be displayed in the global feed. you can even sort and view the articles based on the tags.   
+6.you can change your profile picture , password, bio, username, email from the update settings page.   
+7.You can see the all articles posted by the user, and he only have the access to edit(article content) and delete the articles.      
 8.user can signout by clicking the signout button, at the top-right corner of the header, then he will be rediredted to the home page. 
 
 <!-- CONTRIBUTING -->
@@ -144,8 +144,10 @@ Contributions are what make the open source community such an amazing place to l
 
 ## Backend API
 Project's backend code is available in the [Api_backend](https://github.com/palacharlanarendra/medium-API-clone/tree/main/Api_backend) folder in the same repo, 
-All the end points are provided here for the API manual testing.
+All the end points are provided here for the API manual testing.  
 
+Api deployed over here [BASE URL](https://mighty-oasis-08080.herokuapp.com/api/).  
+ 
 # Endpoints
 
 ### Authentication Header:
