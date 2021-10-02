@@ -117,7 +117,7 @@ This is an example of how to list things you need to use the software and how to
 
 To get a better idea about this project, follow my instructions (How to use?)
 
-1. Enter the 'npm start' to run the project, Run the react project on the default link http://localhost:3000/ or click on the Live Link: [https://medium-clone-ce4f5.web.app/signin](https://medium-clone-ce4f5.web.app)
+1. Enter the 'npm start' to run the project, Run the react project on the default link http://localhost:3000/ or click on the Live Link: [https://medium-clone-ce4f5.web.app](https://medium-clone-ce4f5.web.app)
 2. Navigate to the signup page and try to register with your own credentials.
 3. Navigate to the Sign-in link in the navigation bar and enter the credentials, so that you can register/login into the app.
     you can use the following credentials, if you are unable to register.
