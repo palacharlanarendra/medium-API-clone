@@ -62,8 +62,8 @@ Here's are the features:
 * Displaying the global feed and tags for the website visitor.  
 * Website visitors can read all the articles posted by the authors.    
 * Tags functionality, it will sort all the global feed articles.  
-* Authorised users can only post new articles. 
-* Authorised user can only edit, delete his own articles.  
+* Authorized users can only post new articles. 
+* Authorized user can only edit, delete his own articles.  
 * Logged in user can edit his settings, can view his own profile.  
 
 
@@ -164,7 +164,7 @@ You can read the authentication header from the headers of the request
 Example request body:
 ```JSON
 {
-  "user":{
+  "user":{Auth
     "email": "jake@jake.jake",
     "password": "jakejake"
   }
