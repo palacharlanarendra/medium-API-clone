@@ -58,13 +58,13 @@
 This is a Medium clone, following are the features, I tried to mimic few features from the 
 medium.
 Here's are the features:
-* User Authentication using JWT
-* Displaying the global feed and tags for the website visitor.
-* Website visitors can read all the articles posted by the authors
-* Tags functionality, it will sort all the global feed articles.
-* Authorised users can only post new articles.
-* Authorised user can only edit, delete his own articles.
-* Logged in user can edit his settings, can view his own profile.
+* User Authentication using JWT.  
+* Displaying the global feed and tags for the website visitor.  
+* Website visitors can read all the articles posted by the authors.    
+* Tags functionality, it will sort all the global feed articles.  
+* Authorised users can only post new articles. 
+* Authorised user can only edit, delete his own articles.  
+* Logged in user can edit his settings, can view his own profile.  
 
 
 
@@ -125,11 +125,11 @@ To get a better idea about this project, follow my instructions (How to use?)
    email id : nari@gmail.com
    password : asdf1234
    ```
-4. Once you logged into the website, you can be able to access the private header links like write-a-story(add new post), settings, profile. 
-5. if you access the write-a-story link, you can add new article to the website. this submitted artice will be displayed in the global feed. you can even sort and view the articles based on the tags.
-6.you can change your profile picture , password, bio, username, email from the update settings page.
-7.You can see the all articles posted by the user, and he only have the access to edit(article content) and delete the articles. 
-8.user can signout by clicking the signout button, at the top-right corner of the header, then he will be rediredted to the home page.
+4. Once you logged into the website, you can be able to access the private header links like write-a-story(add new post), settings, profile.  
+5. if you access the write-a-story link, you can add new article to the website. this submitted artice will be displayed in the global feed. you can even sort and view the articles based on the tags. 
+6.you can change your profile picture , password, bio, username, email from the update settings page. 
+7.You can see the all articles posted by the user, and he only have the access to edit(article content) and delete the articles.  
+8.user can signout by clicking the signout button, at the top-right corner of the header, then he will be rediredted to the home page. 
 
 <!-- CONTRIBUTING -->
 ## Contributing
