@@ -144,7 +144,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## Backend API
 Project's backend code is available in the Api_backend folder in the same repo, 
-All the end points are provided here for the API
+All the end points are provided here for the API manual testing.
 
 # Endpoints
 
