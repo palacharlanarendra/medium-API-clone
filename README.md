@@ -45,8 +45,8 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-<!-- ABOUT THE PROJECT --
-## About The Project
+<!-- ABOUT THE PROJECT -->
+### About The Project
 
 This is a Medium clone, following are the features, I tried to mimic few features from the 
 medium.
