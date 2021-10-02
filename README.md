@@ -143,7 +143,7 @@ Contributions are what make the open source community such an amazing place to l
 5. Open a Pull Request
 
 ## Backend API
-Project's backend code is available in the Api_backend folder in the same repo, 
+Project's backend code is available in the [Api_backend](https://github.com/palacharlanarendra/medium-API-clone/tree/main/Api_backend) folder in the same repo, 
 All the end points are provided here for the API manual testing.
 
 # Endpoints
